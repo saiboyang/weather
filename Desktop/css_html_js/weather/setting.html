@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>JavaScript &amp; jQuery - Chapter 7: Introducing jQuery - Example</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/bootstrap.css" />
+  </head>
+  <body>
+  <header>
+      <h1>Weather</h1>
+      <nav>
+        <a href="index.html">HOME</a>
+        <a href="setting.html">SETTING</a>
+        <!--a href="example.html" class="current">Setting</a-->
+      </nav>
+    </header>
+
+    <section id="content">
+      <div id="container">
+         <div class = "row">
+          <div  id="list" class="col-md-offset-2 col-md-7">
+              <ul> 
+              </ul>
+              <div id="newItemButton"><button href="#" id="showForm">Nouvelle</button></div>
+              <form id="newItemForm">
+                <input type="text" id="cityName" class="col-md-10" placeholder="Saisir le nome de la ville" />
+                <input type="submit" id="add" class="col-md-2" value="Valider" />
+              </form>
+          </div>
+         </div>
+
+      </div><!-- #container -->
+    </section><!-- #content -->
+    <script src="js/jquery-1.11.0.min.js"></script>
+    <script src="js/setting.js"></script>
+
+  </body>
+</html>
